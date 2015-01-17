@@ -6,16 +6,13 @@
 #      by: PyQt4 UI code generator 4.11.3
 #
 # WARNING! All changes made in this file will be lost!
-import idaapi
+
 import sys
 import os
 import subprocess
 import inspect
 
-idahome = idaapi.idadir("QTApps\\SuperADB")
 
-if idahome not in sys.path:
-     sys.path.insert(0, cmd_folder)
 
 
 from subprocess import Popen, PIPE
@@ -609,7 +606,7 @@ class Ui_Adb_Helper(object):
     '''
     def Shelf(self):
         subprocess.Popen('adb shell')
-        print "Look at CheatSheet for help""
+        print "Look at CheatSheet for help"
     '''
     Define misc buttons
     '''
