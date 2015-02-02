@@ -45,6 +45,6 @@ REMEMBER to Put Your legit android_server from Hexray in the platform tools fold
 
 gdb example 
 
-[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_J8eqd_L_PaU.png)](http://youtu.be/=J8eqd_L_PaU)
+[![Alt text for your video](http://img.youtube.com/vi/T-D1KVIuvjA/0.jpg)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
 
 
