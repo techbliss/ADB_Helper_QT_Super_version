@@ -45,6 +45,6 @@ REMEMBER to Put Your legit android_server from Hexray in the platform tools fold
 
 gdb example 
 
-[![Alt text for your video](http://img.youtube.com/vi/T-D1KVIuvjA/0.jpg)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
+[![Alt text for your video](http://img.youtube.com/vi/T-J8eqd_L_PaU/0.jpg)](https://www.youtube.com/watch?v=J8eqd_L_PaU)
 
 
