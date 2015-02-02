@@ -43,11 +43,7 @@ IMPORTANT!!!.
 
 REMEMBER to Put Your legit android_server from Hexray in the platform tools folder and the QtApps\SuperADB folder also.
 
-gdb example 
-
-[![Techbiss.org](http://img.youtube.com/vi/J8eqd_L_PaU/0.jpg)](http://www.youtube.com/watch?v=J8eqd_L_PaU)
 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=J8eqd_L_PaU
-" target="_blank"><img src="http://img.youtube.com/vi/J8eqd_L_PaU/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
