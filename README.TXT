@@ -43,5 +43,7 @@ IMPORTANT!!!.
 
 REMEMBER to Put Your legit android_server from Hexray in the platform tools folder and the QtApps\SuperADB folder also.
 
+gdb example 
+[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/watch?v=J8eqd_L_PaU)
 
 
