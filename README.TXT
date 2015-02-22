@@ -28,6 +28,8 @@ Copy other folder plugins to ida and overwrite.
 it will copy the ida plugin to ida\plugin folder.
 And make a New folder called QtApps in ida\QtApps
 
+have a copy of android_server and gdbserver in android_sdk path
+
 start plugin from edit plugins.
 after its started run it from same.
 
