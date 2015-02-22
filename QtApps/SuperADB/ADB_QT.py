@@ -4,11 +4,17 @@ import os
 import subprocess
 import inspect
 
-
+class adb():
+    def AdbCall(self):
+        '''import path to idaapi
+        '''
+        g = globals()
+        idahome = idaapi.idadir("QTApps\\SuperADB")
 
 
 from subprocess import Popen, PIPE
 from PyQt4 import QtCore, QtGui
+from PyQt4.QtGui import QTextEdit
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -582,15 +588,19 @@ class Ui_Adb_Helper(object):
         import os
 
         from subprocess import Popen, PIPE
-        output = subprocess.Popen('adb shell ps', stdout=PIPE)
-        print output.stdout.read()
+        cat = subprocess.Popen('adb shell ps', stdout=subprocess.PIPE, shell=True)
+        self.textEdit_3.setText(cat.stdout.read())
 
-    '''
-    DEfine logcat button
-    '''
+        '''
+        DEfine logcat button
+        '''
 
     def Logger(self):
-         subprocess.Popen('adb logcat')
+        from subprocess import Popen, PIPE
+        subprocess.Popen('adb logcat')
+        #cat2 = subprocess.Popen('adb logcat')
+        #self.textEdit_2.setText(str(cat2))
+
 
     '''
     define shell button
@@ -602,24 +612,17 @@ class Ui_Adb_Helper(object):
     Define misc buttons
     '''
     def Installsu(self):
+        #import sys
+        #import adb
+        #g = globals()
+        #idahome = idaapi.idadir("QTApps\\SuperADB")
+        #sys.path.append(idahome)
         subprocess.Popen('adb install busybox.apk')
 
     def Boot(self):
         subprocess.Popen('adb reboot')
 
-    #def callProgramps(self):
-        # run the process
-        # `start` takes the exec and a list of arguments
-        #self.process.start('adb shell ')
-        #self.output = QtGui.QTextEdit()
 
-        #layout.addWidget(self.output)
-        #layout.addWidget(self.but_Pids)
-        # QProcess object for external app
-        #self.process = QtCore.QProcess(self)
-
-
-        # QProcess emits `readyRead` when there is data to be read
 
 if __name__ == "__main__":
     import sys

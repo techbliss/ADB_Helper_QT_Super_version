@@ -43,5 +43,8 @@ IMPORTANT!!!.
 
 REMEMBER to Put Your legit android_server from Hexray in the platform tools folder and the QtApps\SuperADB folder also.
 
+changelog v 1.1
+Small code fixes
+added Pids to Show in GUI insteed of ida .
 
 
