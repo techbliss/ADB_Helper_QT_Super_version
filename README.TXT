@@ -45,9 +45,14 @@ IMPORTANT!!!.
 
 REMEMBER to Put Your legit android_server from Hexray in the platform tools folder and the QtApps\SuperADB folder also.
 
+
 changelog v 1.1
 Small code fixes
 added Pids to Show in GUI insteed of ida .
+
+
+If you have trouble loading plugin see tut of howto setup ida and PyQt correct.
+http://www.techbliss.org/threads/adb-qt-super-version.626/#post-2095
 
 
 
